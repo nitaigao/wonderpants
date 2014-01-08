@@ -32,13 +32,13 @@ void ChaptersSceneView::initWithController(ChaptersScene* controller) {
   }
   
   {
-    CCSize screenSize = CCDirector::sharedDirector()->getWinSize();
+    CCSize screenSize = CCDirector::sharedDirector()->getCompatibleWinSize();
     CCSprite* coin = CCSprite::spriteWithSpriteFrameName("level_end_coin.png");
     coin->setPosition(ccp(screenSize.width - 30, screenSize.height - 30));
     addChild(coin, 2);
   }
   {
-    CCSize screenSize = CCDirector::sharedDirector()->getWinSize();
+    CCSize screenSize = CCDirector::sharedDirector()->getCompatibleWinSize();
     CCLabelBNFont* coinsLabel = CCLabelBNFont::labelWithString("0", "soupofjustice_28_white.fnt", CCTextAlignmentRight);
     coinsLabel->setPosition(ccp(screenSize.width - 55, screenSize.height - 30));
 

@@ -14,8 +14,10 @@ BackButton* BackButton::itemWithController(cocos2d::SelectorProtocol *controller
 
 void BackButton::initWithController(cocos2d::SelectorProtocol *rec, cocos2d::SEL_MenuHandler selector) {
   CCMenu* menu = CCMenu::node();
-  CCSize screenSize = CCDirector::sharedDirector()->getWinSize();
-  menu->setPosition(ccp(30, screenSize.height - 30));
+  CCSize screenSize = CCDirector::sharedDirector()->getCompatibleWinSize();
+  CCPoint origin = CCDirector::sharedDirector()->getCompatibleOrigin();
+  
+  menu->setPosition(ccp(origin.x + 30, screenSize.height - origin.y - 30));
   
   {
     CCSprite* up = CCSprite::spriteWithSpriteFrameName("button_back.png");

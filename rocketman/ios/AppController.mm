@@ -1,4 +1,13 @@
 #import <UIKit/UIKit.h>
+
+@implementation UIScreen(Private)
+
+//- (CGRect) bounds {
+//  return CGRectMake(0, 0, 320, 480);
+//}
+
+@end
+
 #import "AppController.h"
 #import "cocos2d.h"
 #import "EAGLView.h"
@@ -12,15 +21,6 @@
 #import "StatsTracker.h"
 #import "iRate.h"
 #import "SaveMigrator.h"
-
-@implementation UIScreen(Private)
-
-- (CGRect) bounds {
-  return CGRectMake(0, 0, 320, 480);
-}
-
-
-@end
 
 @implementation AppController
 
@@ -43,14 +43,17 @@ static AppDelegate s_sharedApplication;
   
   [[SaveMigrator migrator] migrate:@"full_level_data.xml"];
   
-  window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
-  EAGLView *__glView = [EAGLView viewWithFrame: [window bounds]
+  CGRect frame = [UIScreen mainScreen].bounds;
+  window = [[UIWindow alloc] initWithFrame: frame];
+  
+  EAGLView *__glView = [EAGLView viewWithFrame: frame
                                    pixelFormat: kEAGLColorFormatRGBA8
                                    depthFormat: GL_DEPTH_COMPONENT16_OES
                             preserveBackbuffer: NO
                                     sharegroup: nil
                                  multiSampling: NO
                                numberOfSamples: 0 ];
+  
   
   viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
   viewController.wantsFullScreenLayout = YES;

@@ -225,6 +225,10 @@ public:
 	It takes into account any possible rotation (device orientation) of the window
 	*/
 	CCSize getWinSize(void);
+  
+  CCSize getCompatibleWinSize(void);
+  
+  CCPoint getCompatibleOrigin(void);
 
 	/** returns the size of the OpenGL view in pixels.
 	It takes into account any possible rotation (device orientation) of the window.

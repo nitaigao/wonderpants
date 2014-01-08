@@ -464,6 +464,22 @@ CCSize CCDirector::getWinSize(void)
 	return s;
 }
 
+CCSize CCDirector::getCompatibleWinSize(void)
+{
+  CCSize compatWinSize = CCSizeMake(480, 320);
+  return compatWinSize;
+}
+  
+CCPoint CCDirector::getCompatibleOrigin(void)
+{
+  CCSize screenSize = getWinSize();
+  CCSize compatWinSize = getCompatibleWinSize();
+  float width = (screenSize.width - compatWinSize.width) / 2.0f;
+  float height = (screenSize.height - compatWinSize.height) / 2.0f;
+  CCPoint origin = CCPointMake(width, height);
+  return origin;
+}
+  
 CCSize CCDirector::getWinSizeInPixels()
 {
 	CCSize s = getWinSize();

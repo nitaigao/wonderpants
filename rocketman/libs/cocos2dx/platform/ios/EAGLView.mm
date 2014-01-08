@@ -394,6 +394,7 @@ static cocos2d::CCTouch *s_pTouches[MAX_TOUCHES];
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+  NSLog(@"touchesBegan");
 	cocos2d::CCSet set;
     cocos2d::CCTouch *pTouch;
     
