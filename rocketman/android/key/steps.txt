@@ -1,0 +1,5 @@
+keytool -genkey -v -keystore wonderpants-release.keystore -alias wp -keyalg RSA -keysize 2048 -validity 10000
+
+jarsigner -verbose -keystore wonderpants-release.keystore wonderpants.apk wp
+
+zipalign -v 4 wonderpants.apk wonderpants_aligned.apk

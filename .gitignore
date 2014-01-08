@@ -1,0 +1,6 @@
+*assets*
+*.apk
+*.o.d
+*obj*
+*.so
+*.apk

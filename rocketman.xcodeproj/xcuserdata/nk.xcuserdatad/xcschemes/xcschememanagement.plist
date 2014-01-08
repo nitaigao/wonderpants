@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>rocketman.lib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>rocketman.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4CB5C46914C44604006771CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CB5C5C414C44650006771CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CBB9BBB14768E410038C6D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CF44FA41475534800512AF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
