@@ -1,0 +1,55 @@
+[{
+  "comic": "chapter_select_01_country.jpg",
+  "comic_down": "chapter_select_01_country_down.png",
+  "stacks": "chapter_select_01_stacks.png",
+  "character": "floating_character_01.png",
+  "background": "generic_background_country_night.jpg",
+  "level_end": "generic_background_country_night.jpg",
+  "required": 0,
+  "loading": "loading_screen_general.jpg",
+  "intro": "chapter1_comic_folded.jpg",
+  "levels": 24
+},
+{
+  "comic": "chapter_select_02_city.jpg",
+  "comic_down": "chapter_select_02_city_down.png",
+  "stacks": "chapter_select_02_stacks.png",
+  "character": "floating_character_02.png",
+  "background": "generic_background_city_night.jpg",
+  "level_end": "generic_background_city_night.jpg",
+  "required": 50,
+  "loading": "loading_screen_general.jpg",
+  "intro": "chapter2_comic_folded.jpg",
+  "levels": 24
+},  
+{
+  "comic": "chapter_select_03_jungle.jpg",
+  "comic_down": "chapter_select_03_jungle_down.png",
+  "stacks": "chapter_select_03_stacks.png",
+  "character": "floating_character_03.png",
+  "background": "generic_background_jungle_night.jpg",
+  "level_end": "generic_background_jungle_night.jpg",
+  "required": 90,
+  "loading": "loading_screen_general.jpg",
+  "intro": "chapter3_comic_folded.jpg",
+  "levels": 24
+},
+{
+  "comic" : "chapter_select_04_plane_jump.jpg",
+  "comic_down" : "chapter_select_04_plane_jump.jpg",
+  "stacks": "chapter_select_04_stacks.png",
+  "character": "floating_character_04.png",
+  "background": "BackgroundCountry.jpg",
+  "required": -1,
+  "levels": 0
+},
+{
+  "comic" : "chapter_select_05_enemy_base.jpg",
+  "comic_down" : "chapter_select_05_enemy_base.jpg",
+  "stacks": "chapter_select_05_stacks.png",
+  "character": "floating_character_05.png",
+  "background": "BackgroundCountry.jpg",
+  "required": -1,
+  "levels": 0
+}
+]

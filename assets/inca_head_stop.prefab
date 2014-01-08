@@ -1,0 +1,30 @@
+{
+    "behaviors": [{
+        "y": 141,
+        "scale": 1,
+        "type": "spatial",
+        "x": 300,
+        "rotation": 30
+    },
+    {
+      "data" : "cage_key",
+      "sim" : "static",
+      "type" : "physical",
+      "material" : "inca_stop"
+    },
+    {
+        "z": 5,
+        "type": "visible",
+        "opacity": 255,
+        "asset": "inca_head_stop.png"
+    },
+    {
+        "type": "script",
+        "script": "inca_head_stop.lua",
+        "pair_id" : 0
+    },
+    {
+        "type": "script",
+        "script": "floatable.lua"
+    }]
+}

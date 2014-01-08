@@ -1,0 +1,27 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 185, 
+      "y": 137
+    }, 
+    {
+      "asset": "spikes_large.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z" : 10
+    }, 
+    {
+      "data": "spikes_large", 
+      "sim": "static", 
+      "type": "physical",
+      "material": "spikes"
+    }, 
+    {
+      "script": "harmful.lua", 
+      "type": "script"
+    }
+  ]
+}

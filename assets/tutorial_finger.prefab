@@ -1,0 +1,26 @@
+{
+    "behaviors": [{
+        "y": 200,
+        "scale": 1,
+        "type": "spatial",
+        "x": 213,
+        "rotation": 0
+    },
+    {
+        "animations": [{
+            "delay": 0.9,
+            "frames": ["tutorial_finger.png", "tutorial_finger_pressing.png", "tutorial_circle_01.png", "tutorial_circle_02.png", "tutorial_circle_03.png", "tutorial_circle_04.png"],
+            "name": "tutorial_finger"
+        }],
+        "default": "tutorial_finger",
+        "frame_data": "tutorial_finger.plist",
+        "asset": "ui.pvr.ccz",
+        "type": "animable",
+        "opacity": 0,
+        "z": 44
+    },
+    {
+      "type": "script",
+      "script": "tutorial_finger.lua"
+    }]
+}

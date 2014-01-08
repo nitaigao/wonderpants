@@ -1,0 +1,49 @@
+{
+  "behaviors" : [
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 334,
+      "y" : 114
+    },
+    {
+      "animations": [
+        {
+          "delay": 0.03, 
+          "frames": [
+            "cage_up_01.png",
+            "cage_up_02.png",
+            "cage_up_03.png",
+            "cage_up_04.png"
+          ], 
+          "name": "cage_open"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "cage.png"
+          ], 
+          "name": "cage_shut"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "cage_shut", 
+      "frame": "cage.png", 
+      "frame_data": "cage.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 80
+    },
+    {
+      "type" : "script",
+      "script" : "cage.lua",
+      "pair_id" : 0
+    },
+    {
+      "data" : "cage",
+      "sim" : "static",
+      "type" : "physical"
+    }
+  ]
+}

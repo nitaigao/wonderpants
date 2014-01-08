@@ -1,0 +1,42 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0.1, 
+          "frames": [
+            "propeller_1.png",
+            "propeller_2.png",
+            "propeller_3.png",
+            "propeller_4.png"          
+          ], 
+          "name": "propeller_default"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz",
+      "default": "propeller_default", 
+      "frame_data": "propeller.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 10
+    }, 
+    {
+      "rotation": 0, 
+      "scale": 1.0, 
+      "type": "spatial", 
+      "x": 379, 
+      "y": 134
+    },
+    {
+      "script" : "blowable.lua",
+      "type" : "script",
+      "INFLUENCE_THRESHOLD": 280
+    },
+    {
+      "data" : "propeller",
+      "sim" : "static",
+      "type" : "physical",
+      "material": ""
+    }
+  ]
+}

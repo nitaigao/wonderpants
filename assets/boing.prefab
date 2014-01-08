@@ -1,0 +1,47 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "trampoline.png"          
+          ], 
+          "name": "boing_default"
+        },
+        {
+          "delay": 0.1, 
+          "frames": [
+            "trampoline_compressed.png", 
+            "trampoline_un_compressed.png",
+            "trampoline.png"         
+          ], 
+          "name": "boing_bounce"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz",
+      "default": "boing_default", 
+      "frame_data": "trampoline.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 12
+    }, 
+    {
+      "rotation": 0, 
+      "scale": 1.0, 
+      "type": "spatial",
+      "x": 379, 
+      "y": 134
+    },
+    {
+      "type": "script",
+      "script": "bouncable.lua"
+    },
+    {
+      "data": "trampoline", 
+      "sim": "static", 
+      "type": "physical",
+      "material": "trampoline"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "behaviors" : [
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 239.5,
+      "y" : 160
+    },
+    {
+      "data" : "cage_key",
+      "sim" : "static",
+      "type" : "physical",
+      "material" : "cage_key"
+    },
+    {
+      "animations": [
+        {
+          "delay": 0.2, 
+          "frames": [
+            "Key_spinning_yellow_1.png",
+            "Key_spinning_yellow_2.png",
+            "Key_spinning_yellow_3.png",
+            "Key_spinning_yellow_4.png",
+            "Key_spinning_yellow_5.png",
+            "Key_spinning_yellow_6.png",
+            "Key_spinning_yellow_7.png",
+            "Key_spinning_yellow_8.png",
+            "Key_spinning_yellow_9.png",
+            "Key_spinning_yellow_10.png",
+            "Key_spinning_yellow_11.png",
+            "Key_spinning_yellow_12.png"
+          ], 
+          "name": "key_spinning"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "key_spinning", 
+      "frame": "Key_spinning_yellow_1.png", 
+      "frame_data": "key_spinning.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 75
+    },
+    {
+      "script" : "floatable.lua",
+      "type" : "script"
+    },
+    {
+      "type" : "script",
+      "script" : "cage_key.lua",
+      "pair_id" : 0
+    }
+  ]
+}

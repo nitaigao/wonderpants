@@ -1,0 +1,46 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "cat_scared.png"
+          ], 
+          "name": "cat_missed"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "cat_sad_sitting.png"
+          ], 
+          "name": "cat_idle"
+        } 
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "cat_idle", 
+      "frame_data": "cat_sitting.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 60
+    }, 
+    {
+      "data": "cat_sitting", 
+      "sim": "dynamic", 
+      "type": "physical",
+      "material": "cat"
+    }, 
+    {
+      "type": "script",
+      "script": "targetable.lua"
+    },
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 390,
+      "y" : 163
+    }
+  
+  ]
+}

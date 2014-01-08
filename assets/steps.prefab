@@ -1,0 +1,17 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 239.5, 
+      "y": 160
+    }, 
+    {
+      "asset": "step_ladder.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z": 7
+    }
+  ]
+}

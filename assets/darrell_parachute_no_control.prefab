@@ -1,0 +1,169 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_standing_parachute.png"
+          ], 
+          "name": "idle"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_parachute_fallen.png"
+          ], 
+          "name": "fallen"
+        },
+        {
+          "delay": 0.20000000000000001, 
+          "frames": [
+            "dayrll_parachute_roll01.png", 
+            "dayrll_parachute_roll02.png"
+          ], 
+          "name": "launched"
+        },
+       {
+          "delay": 0.1, 
+          "frames": [
+            "dayrll_standing_parachute_half_blink.png",
+            "dayrll_standing_parachute_full_blink.png"
+          ], 
+          "name": "character_blink"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_parachute_failinair.png"
+          ], 
+          "name": "missed"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_parachute.png"
+          ], 
+          "name": "parachute"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "daryll_cat_win_hugging_parachute.png"
+          ], 
+          "name": "win"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_standing_parachute.png"
+          ], 
+          "name": "pants"
+        },
+        {
+          "delay": 0.07, 
+          "frames": [
+            "dayrll_about_to_jump_parachute_3.png",
+            "dayrll_about_to_jump_parachute_3.png",
+            "dayrll_about_to_jump_parachute_5.png",
+            "dayrll_about_to_jump_parachute_5.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png",
+            "dayrll_about_to_jump_parachute_7.png"
+          ], 
+          "name": "prejump"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "idle", 
+      "frame": "dayrll_standing.png", 
+      "frame_data": "character.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 100
+    }, 
+    {
+      "data" : "side_smoke_r.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 40
+    },
+    {
+      "data" : "flight_smoke.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : 0,
+      "z" : 40
+    },
+    {
+      "data" : "flight_green.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : 0,
+      "z" : 40
+    },    
+    {
+      "data" : "side_smoke_l.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 40
+    },
+    {
+      "data" : "crash_dust.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 101
+    },
+    {
+      "data" : "down_smoke.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 40
+    },   
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 48, 
+      "y": 51
+    }, 
+    {
+      "type": "script",
+      "script": "launchable.lua"
+    },
+    {
+      "type": "script",
+      "script": "parachute.lua",
+      "ALLOW_INPUT": false
+    },
+    {
+      "type": "script",
+      "script": "darrell.lua"
+    },
+    {
+      "data": "dayrll_roll", 
+      "sim": "static", 
+      "bullet": true,
+      "type": "physical",
+      "material": "launchable",
+      "always_awake": true
+    }
+  ]
+}

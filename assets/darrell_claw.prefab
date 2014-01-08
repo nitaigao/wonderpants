@@ -1,0 +1,167 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_standing_swing.png"
+          ], 
+          "name": "idle"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_fallen_swinging.png"
+          ], 
+          "name": "fallen"
+        },
+        {
+          "delay": 0.20000000000000001, 
+          "frames": [
+            "dayrll_grappling_roll01.png", 
+            "dayrll_grappling_roll02.png"
+          ], 
+          "name": "launched"
+        },
+      
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_swinging_failinair.png"
+          ], 
+          "name": "missed"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_swinging.png"
+          ], 
+          "name": "swing"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_cat_win_hugging_swinging.png"
+          ], 
+          "name": "win"
+        }, 
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_standing_swing.png"
+          ], 
+          "name": "character_blink"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "dayrll_standing_swing.png"
+          ], 
+          "name": "pants"
+        },
+        {
+          "delay": 0.07, 
+          "frames": [
+            "dayrll_about_to_jump_swinging_3.png",
+            "dayrll_about_to_jump_swinging_3.png",
+            "dayrll_about_to_jump_swinging_5.png",
+            "dayrll_about_to_jump_swinging_5.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png",
+            "dayrll_about_to_jump_swinging_7.png"
+          ], 
+          "name": "prejump"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "idle", 
+      "frame": "dayrll_standing.png", 
+      "frame_data": "character.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 100
+    }, 
+    {
+      "data" : "side_smoke_r.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 40
+    },
+    {
+      "data" : "flight_smoke.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : 0,
+      "z" : 40
+    },
+    {
+      "data" : "flight_green.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : 0,
+      "z" : 40
+    },    
+    {
+      "data" : "side_smoke_l.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 40
+    },
+    {
+      "data" : "down_smoke.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 40
+    },   
+    {
+      "data" : "crash_dust.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : -32,
+      "z" : 101
+    },       
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 48, 
+      "y": 60
+    }, 
+    {
+      "type": "script",
+      "script": "launchable.lua"
+    }, 
+    {
+      "type": "script",
+      "script": "darrell.lua"
+    },
+    {
+      "type": "script",
+      "script": "claw.lua"
+    },
+    {
+      "data": "dayrll_roll",
+      "bullet": true,
+      "sim": "static", 
+      "type": "physical",
+      "material": "launchable"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "behaviors": [{
+      "rotation" : -10,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 177,
+      "y" : 172
+    },
+    {
+      "asset" : "tutorial_arrow.png",
+      "type" : "visible",
+      "z" : 3,
+      "opacity": 255
+    },
+    {
+      "type": "script",
+      "script" : "tutorial_arrow.lua"
+    }]
+}

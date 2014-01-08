@@ -1,0 +1,17 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 227, 
+      "y": 145
+    }, 
+    {
+      "asset": "pivot_point.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z": 8
+    }
+  ]
+}

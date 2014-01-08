@@ -1,0 +1,24 @@
+[{
+  "comic": "chapter_select_01_country.jpg",
+  "comic_down": "chapter_select_01_country_down.png",
+  "stacks": "chapter_select_01_stacks.png",
+  "character": "floating_character_01.png",
+  "background": "generic_background_country_night.jpg",
+  "level_end": "generic_background_country_night.jpg",
+  "required": 0,
+  "loading": "loading_screen_general.jpg",
+  "intro": "chapter1_comic_folded.jpg",
+  "levels": 9
+},
+{
+  "comic": "chapter_select_02_city.jpg",
+  "comic_down": "chapter_select_02_city_down.png",
+  "stacks": "chapter_select_02_stacks.png",
+  "character": "floating_character_02.png",
+  "background": "generic_background_city_night.jpg",
+  "level_end": "generic_background_city_night.jpg",
+  "required": 15,
+  "loading": "loading_screen_general.jpg",
+  "intro": "chapter2_comic_folded.jpg",
+  "levels": 9
+}]

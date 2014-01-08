@@ -1,0 +1,117 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "cat_scared.png"
+          ], 
+          "name": "cat_missed"
+        },
+        {
+          "delay": 0.1,
+          "frames": [
+            "cat_sitting_blink_half.png",
+            "cat_sitting_blink_full.png"
+          ], 
+          "name": "cat_blink"
+        },  
+        {
+          "delay": 0.15, 
+          "frames": [
+            "cat_fail_grabbing_01.png",
+            "cat_fail_grabbing_02.png",
+            "cat_fail_grabbing_03.png"
+          ], 
+          "name": "cat_missed_below"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "cat_fail_grabbing_03.png"
+          ], 
+          "name": "cat_missed_below_end"
+        },
+        {
+          "delay": 0.2, 
+          "frames": [
+            "cat_anticipation_sitting_up.png",
+            "cat_anticipation.png"
+          ], 
+          "name": "cat_anticipation"
+        },
+        {
+          "delay": 0.2, 
+          "frames": [
+            "cat_anticipation.png",
+            "cat_anticipation_2.png",
+            "cat_anticipation.png",
+            "cat_anticipation_3.png"
+          ], 
+          "name": "cat_anticipation_paws"
+        },
+        {
+          "delay": 0.2, 
+          "frames": [
+            "cat_anticipation_sitting_up.png",
+            "cat_sad_sitting.png"
+          ], 
+          "name": "cat_deanticipation"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "cat_sad_sitting.png"
+          ], 
+          "name": "cat_idle"
+        }, 
+        {
+          "delay": 0.1, 
+          "frames": [
+            "cat_sad_meow_1.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_2.png",
+            "cat_sad_meow_1.png"
+          ], 
+          "name": "cat_meow"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz",
+      "default": "cat_idle", 
+      "frame_data": "cat_sitting.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 70
+    }, 
+    {
+      "data": "cat_sitting_sensor", 
+      "sim": "static", 
+      "type": "physical",
+      "material": "cat"
+    }, 
+    {
+      "script": "targetable.lua",
+      "type": "script"
+    },
+    {
+      "script": "cat_sitting.lua",
+      "type": "script"
+    },
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 390,
+      "y" : 163
+    }
+  ]
+}

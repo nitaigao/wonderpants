@@ -1,0 +1,18 @@
+{
+  "end_game" : {
+    "gain": 1.0,
+    "files": ["kh_music_title_entire_01.mp3"]
+  },
+  "game" : {
+    "gain": 0.75,
+    "files": ["kh_music_ingame_01.mp3"]
+  },
+  "title" : {
+    "gain": 1.0,
+    "files": ["kh_music_title_loop_01.mp3"]
+  },
+  "chapter_intro" : {
+    "gain": 1.0,
+    "files": ["kh_music_story_01.mp3"]
+  }
+}

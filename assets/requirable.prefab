@@ -1,0 +1,27 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 213, 
+      "y": 200
+    }, 
+    {
+      "asset": "collectable.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z" : 10
+    }, 
+    {
+      "data": "collectable", 
+      "sim": "static", 
+      "type": "physical",
+      "material": ""
+    }, 
+    {
+      "script": "requireable.lua", 
+      "type": "script"
+    }
+  ]
+}

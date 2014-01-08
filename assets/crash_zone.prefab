@@ -1,0 +1,28 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0,
+      "scale": 1,
+      "type": "spatial",
+      "x": 300,
+      "y": 8
+    },
+    {
+      "data": "crashbox",
+      "sim": "static",
+      "type": "physical",
+      "material": "crashable"
+    },
+    {
+      "type": "script",
+      "script": "crashable.lua"
+    },
+    {
+      "asset": "killbox.png",
+      "opacity": 255,
+      "type": "visible",
+      "z" : 10,
+      "visible": false
+    }
+  ]
+}

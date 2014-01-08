@@ -1,0 +1,40 @@
+{
+  "behaviors" : [
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 239.5,
+      "y" : 160
+    },
+    {
+      "animations": [
+        {
+          "delay": 0.0,
+          "frames": [
+            "Teleport_head_l.png"
+          ], 
+          "name": "teleport_entrance_open_left"
+        },
+        {
+          "delay": 0.3,
+          "frames": [
+            "Teleport_head_mouth_shut_left.png"
+          ], 
+          "name": "teleport_entrance_closed_left"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "teleport_entrance_open_left", 
+      "frame_data": "teleport.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 15
+    },
+    {
+      "pair_id" : 0,
+      "script" : "teleport_entrance_bootstrap_left.lua",
+      "type" : "script"
+    }
+  ]
+}

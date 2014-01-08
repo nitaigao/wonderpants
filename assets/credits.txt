@@ -1,0 +1,43 @@
+*Programming
+Nicholas Kostelnik
+Luke Williams
+
+*Art
+Peter Dobbin
+
+*Design
+James Parker
+
+*SFX / Music 
+Darren Lambourne
+
+*Video
+Dawn Donohoe - FlyFaction
+
+*QA
+Andy Kent
+Lloyd Pick
+Robin Landy
+Andrew Nesbitt
+Jon Spalding
+Michael Patricios
+Artyom Diogtev - ComboApp
+
+*Special Thanks
+Carl Gaywood
+Yannick Roux
+Paul Fisher
+Neil Hutchinson
+
+*Thanks
+Simon Hermitage
+Tom O'Flaherty
+Gina Jackson
+Dave Penn
+Riley Russell
+Brodie Russell
+Will Whitaker
+Shaun Rutland
+Avril Jones
+Sandra Arvidsson
+Nova Dobbin

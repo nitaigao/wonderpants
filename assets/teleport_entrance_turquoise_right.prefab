@@ -1,0 +1,33 @@
+{
+  "behaviors" : [
+    {
+      "asset" : "teleport_turquoise.png",
+      "opacity" : 255,
+      "type" : "visible",
+      "z" : 16
+    },
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 239.5,
+      "y" : 160
+    },
+    {
+      "rate" : -50,
+      "script" : "spinnable.lua",
+      "type" : "script"
+    },
+    {
+      "pair_id" : 0,
+      "script" : "teleport_entrance.lua",
+      "type" : "script"
+    },
+    {
+      "data" : "teleport_entrance",
+      "sim" : "static",
+      "type" : "physical",
+      "material": "teleport"
+    }
+  ]
+}

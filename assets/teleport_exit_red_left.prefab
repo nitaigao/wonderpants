@@ -1,0 +1,34 @@
+{
+  "behaviors" : [
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 239.5,
+      "y" : 160
+    },
+    {
+      "asset" : "teleport_red.png",
+      "opacity" : 255,
+      "type" : "visible",
+      "visible": false,
+      "z" : 16
+    },
+    {
+      "rate" : -50,
+      "script" : "spinnable.lua",
+      "type" : "script"
+    },
+    {
+      "pair_id" : 0,
+      "script" : "teleport_exit.lua",
+      "type" : "script"
+    },
+    {
+      "data" : "teleport_exit",
+      "sim" : "static",
+      "type" : "physical",
+      "material": "teleport"
+    }
+  ]
+}

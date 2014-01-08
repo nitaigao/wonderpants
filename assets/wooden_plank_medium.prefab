@@ -1,0 +1,23 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 32, 
+      "y": 109
+    }, 
+    {
+      "asset": "1_country_wooden_plank_medium.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z" : 10
+    }, 
+    {
+      "data": "1_country_wooden_plank_medium", 
+      "sim": "static", 
+      "type": "physical",
+      "material": ""
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "cat_hanging_balloon_fail.png"
+          ], 
+          "name": "cat_missed"
+        }, 
+        {
+          "delay": 0.1,
+          "frames": [
+            "cat_hanging_balloon_half_blink.png",
+            "cat_hanging_balloon_full_blink.png"
+          ], 
+          "name": "cat_blink"
+        },  
+        {
+          "delay": 0.4,
+          "frames": [
+            "cat_hanging_balloon_1.png"
+          ], 
+          "name": "cat_idle"
+        },
+        {
+          "delay": 0.1, 
+          "frames": [
+            "cat_hanging_balloon_meow_1.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_2.png",
+            "cat_hanging_balloon_meow_1.png"
+          ], 
+          "name": "cat_meow"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "cat_idle", 
+      "frame_data": "cat_balloon.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 60
+    }, 
+    {
+      "data": "cat_balloon", 
+      "sim": "static", 
+      "type": "physical",
+      "material": "cat"
+    }, 
+    {
+      "type": "script",
+      "script": "targetable.lua"
+    },
+    {
+      "script": "cat_balloon.lua",
+      "type": "script"
+    },
+    {
+      "type": "script",
+      "script": "floatable.lua"
+    },
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 390,
+      "y" : 163
+    }
+  ]
+}

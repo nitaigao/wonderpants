@@ -1,0 +1,47 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "swing_point_static_deactive.png"
+          ], 
+          "name": "swing_detached"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "swing_point_static_active.png"
+          ], 
+          "name": "swing_attached"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz",
+      "default": "swing_detached",
+      "frame_data": "swing_point_static.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z": 80
+    },
+    {
+      "rotation": 0, 
+      "scale": 1.0, 
+      "type": "spatial",
+      "x": 379, 
+      "y": 134
+    },
+    {
+      "type": "script",
+      "script": "swingable.lua",
+      "GRAB_RADIUS": 100,
+      "LINE_OF_SIGHT_ONLY": false
+    },
+    {
+      "data": "swing_point", 
+      "sim": "static", 
+      "type": "physical",
+      "material": "swing_point"
+    }
+  ]
+}

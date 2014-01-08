@@ -1,0 +1,23 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 32, 
+      "y": 109
+    }, 
+    {
+      "asset": "platfrom_girder_horizontal.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z" : 10
+    }, 
+    {
+      "data": "platfrom_horizontal", 
+      "sim": "static", 
+      "type": "physical",
+      "material": ""
+    }
+  ]
+}

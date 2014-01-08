@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>spring_coiled.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{75,80}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,80}}</string>
+                <key>sourceSize</key>
+                <string>{75,80}</string>
+            </dict>
+            <key>spring_un_coiled.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,76},{75,143}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,143}}</string>
+                <key>sourceSize</key>
+                <string>{75,143}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>size</key>
+            <string>{128,256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:4a713e54184e0003499d42ed1c5800c9$</string>
+            <key>textureFileName</key>
+            <string>spring.png</string>
+        </dict>
+    </dict>
+</plist>

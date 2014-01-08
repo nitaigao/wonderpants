@@ -1,0 +1,47 @@
+{
+    "behaviors": [{
+        "y": 141,
+        "scale": 1,
+        "type": "spatial",
+        "x": 300,
+        "rotation": 30
+    },
+    {
+      "animations": [
+        {
+          "delay": 0, 
+          "frames": [
+            "inca_head_green_l.png"
+          ], 
+          "name": "inca_idle"
+        },
+        {
+          "delay": 0, 
+          "frames": [
+            "inca_head_cork_l.png"
+          ], 
+          "name": "inca_disabled"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz", 
+      "default": "inca_idle", 
+      "frame": "inca_head_green_l.png", 
+      "frame_data": "inca_head.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 5
+    },
+    {
+      "data" : "arrow_fire_smoke.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : 0,
+      "z" : 20
+    },   
+    {
+        "type": "script",
+        "script": "inca_head.lua",
+        "pair_id" : 0,
+        "FACING": 0
+    }]
+}

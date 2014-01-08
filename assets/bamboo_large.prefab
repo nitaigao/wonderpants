@@ -1,0 +1,23 @@
+{
+  "behaviors": [
+    {
+      "rotation": 0, 
+      "scale": 1, 
+      "type": "spatial", 
+      "x": 32, 
+      "y": 109
+    }, 
+    {
+      "asset": "bamboo_large.png", 
+      "opacity": 255, 
+      "type": "visible", 
+      "z" : 10
+    }, 
+    {
+      "data": "bamboo_large", 
+      "sim": "static", 
+      "type": "physical",
+      "material": ""
+    }
+  ]
+}

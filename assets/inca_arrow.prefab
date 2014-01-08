@@ -1,0 +1,27 @@
+{
+    "behaviors": [{
+        "y": 160,
+        "scale": 1,
+        "type": "spatial",
+        "x": 239.5,
+        "rotation": 0
+    },
+    {
+        "z": 4,
+        "type": "visible",
+        "opacity": 255,
+        "asset": "inca_head_arrow_02.png"
+    },
+    {
+        "type": "script",
+        "script": "inca_arrow.lua"
+    },
+    {
+      "data" : "inca_arrow",
+      "sim" : "dynamic",
+      "gravity" : false,
+      "type" : "physical",
+      "material" : "inca_arrow",
+      "always_awake" : true
+    }]
+}

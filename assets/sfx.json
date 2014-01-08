@@ -1,0 +1,223 @@
+{
+  "level_win" : {
+    "gain": 1.0,
+    "files": ["kh_sfx_pickup_cat_01.mp3"]
+  },
+  "collect0" : {
+    "gain": 1.0,
+    "files":["kh_sfx_pickup_good_01.mp3"]
+  },
+  "collect1" : {
+    "gain": 1.0,
+    "files":["kh_sfx_pickup_good_02.mp3"]
+  },
+  "collect2" : {
+    "gain": 1.0,
+    "files":["kh_sfx_pickup_good_03.mp3"]
+  },
+  "cat_sad" : {
+    "gain": 1.0,
+    "files":["kh_sfx_cat_sad_01.mp3"]
+  },
+  "arrow_blow" : {
+    "gain": 1.0,
+    "files":["kh_sfx_blow_arrow_01.mp3", "kh_sfx_blow_arrow_02.mp3", "kh_sfx_blow_arrow_03.mp3"]
+  },
+  "coin_award_end" : {
+    "gain": 1.0,
+    "files":["kh_sfx_points_blip_end_01.mp3"]
+  },
+  "teleport" : {
+    "gain": 1.0,
+    "files":["kh_sfx_teleport_01.mp3"]
+  },
+  "coin_award0" : {
+    "gain": 1.0,
+    "files": ["kh_sfx_award_pop_01.mp3"]
+  },
+  "coin_award1" : {
+    "gain": 1.0,
+    "files": ["kh_sfx_award_pop_02.mp3"]
+  },
+  "coin_award2" : {
+    "gain": 1.0,
+    "files": ["kh_sfx_award_pop_03.mp3"]
+  },
+  "cage_unlock" : {
+    "gain": 1.0,
+    "files":["kh_sfx_collect_key_01.mp3"]
+  },
+  "cat_meow" : {
+    "gain": 1.0,
+    "files":["kh_sfx_cat_meow_01.mp3", "kh_sfx_cat_meow_02.mp3"]
+  },
+  "menu_click" : {
+    "gain": 1.0,
+    "files":["kh_sfx_menu_click_01.mp3"]
+  },
+  "scene_transition" : {
+    "gain": 1.0,
+    "files":["kh_music_ident_04.mp3"]
+  },
+  "jump" : {
+    "gain": 0.75,
+    "files":["kh_sfx_rocket_launch_01.mp3"]
+  },
+  "charge_jump" : {
+    "gain": 1.0,
+    "files":["kh_sfx_rocket_power_up_01.mp3"]
+  },
+  "charge_full" : {
+    "gain": 1.0,
+    "files":["kh_sfx_rocket_full_power_01.mp3"]
+  },
+  "crash_land" : {
+    "gain": 1.0,
+    "files": [
+      "kh_sfx_crashland_01.mp3",
+      "kh_sfx_crashland_02.mp3",
+      "kh_sfx_crashland_03.mp3",
+      "kh_sfx_crashland_04.mp3"
+    ]
+  },
+  "parachute": {
+    "gain": 1.0,
+    "files":[
+      "kh_sfx_parachute_open_01.mp3",
+      "kh_sfx_parachute_open_02.mp3"
+    ]
+  },
+  "grapple": {
+    "gain": 1.0,
+    "files": [
+      "kh_sfx_grapple_01.mp3",
+      "kh_sfx_grapple_02.mp3"
+    ]
+  },
+  "comic_move" : {
+    "gain": 1.0,
+    "files": [
+      "kh_sfx_menu_sweep_01.mp3",
+      "kh_sfx_menu_sweep_02.mp3",
+      "kh_sfx_menu_sweep_03.mp3",
+      "kh_sfx_menu_sweep_04.mp3",
+      "kh_sfx_menu_sweep_05.mp3",
+      "kh_sfx_menu_sweep_06.mp3",
+      "kh_sfx_menu_sweep_07.mp3",
+      "kh_sfx_menu_sweep_08.mp3"
+    ]
+  },
+  "darrell_fail": {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_falling_01.mp3",
+      "kh_voc_falling_02.mp3",
+      "kh_voc_falling_03.mp3",
+      "kh_voc_falling_04.mp3",
+      "kh_voc_falling_05.mp3",
+      "kh_voc_falling_06.mp3"
+    ]
+  },
+  "coin_count_blip" : {
+    "gain": 1.0,
+    "files": [
+      "kh_sfx_points_blip_01.mp3"
+    ]
+  },
+  "darrell_collide" : {
+    "gain": 1.0,
+    "files": [
+      "kh_sfx_collide_close_up_01.mp3",
+      "kh_sfx_collide_close_up_02.mp3",
+      "kh_sfx_collide_close_up_03.mp3",
+      "kh_sfx_collide_close_up_04.mp3"
+    ]
+  },
+  "darrell_collect" : {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_cat_collect_01.mp3",
+      "kh_voc_cat_collect_02.mp3",
+      "kh_voc_cat_collect_03.mp3",
+      "kh_voc_cat_collect_04.mp3",
+      "kh_voc_cat_collect_05.mp3",
+      "kh_voc_cat_collect_06.mp3",
+      "kh_voc_cat_collect_07.mp3"
+    ]
+  },
+  "darrell_full_power" : {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_full_power_01.mp3",
+      "kh_voc_full_power_02.mp3",
+      "kh_voc_full_power_03.mp3",
+      "kh_voc_full_power_04.mp3",
+      "kh_voc_full_power_05.mp3",
+      "kh_voc_full_power_06.mp3",
+      "kh_voc_full_power_07.mp3",
+      "kh_voc_full_power_08.mp3"
+    ]
+  },
+  "darrell_launch_high" : {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_launch_high_01.mp3",
+      "kh_voc_launch_high_02.mp3",
+      "kh_voc_launch_high_03.mp3",
+      "kh_voc_launch_high_04.mp3",
+      "kh_voc_launch_high_05.mp3",
+      "kh_voc_launch_high_06.mp3",
+      "kh_voc_launch_high_07.mp3",
+      "kh_voc_launch_high_08.mp3"
+    ]
+  },
+  "darrell_launch_med" : {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_launch_medium_01.mp3",
+      "kh_voc_launch_medium_02.mp3",
+      "kh_voc_launch_medium_03.mp3",
+      "kh_voc_launch_medium_04.mp3",
+      "kh_voc_launch_medium_05.mp3",
+      "kh_voc_launch_medium_06.mp3",
+      "kh_voc_launch_medium_07.mp3",
+      "kh_voc_launch_medium_08.mp3"
+    ]
+  },
+  "darrell_launch_low" : {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_launch_low_01.mp3",
+      "kh_voc_launch_low_02.mp3",
+      "kh_voc_launch_low_03.mp3",
+      "kh_voc_launch_low_04.mp3",
+      "kh_voc_launch_low_05.mp3",
+      "kh_voc_launch_low_06.mp3",
+      "kh_voc_launch_low_07.mp3",
+      "kh_voc_launch_low_08.mp3" 
+    ]
+  },
+  "darrell_launch_second" : {
+    "gain": 1.0,
+    "files": [
+      "kh_voc_launch_2nd_01.mp3",
+      "kh_voc_launch_2nd_02.mp3",
+      "kh_voc_launch_2nd_03.mp3",
+      "kh_voc_launch_2nd_04.mp3",
+      "kh_voc_launch_2nd_05.mp3",
+      "kh_voc_launch_2nd_06.mp3"
+    ]
+  },
+  "level_lose" : {
+    "gain": 1.0,
+    "files": [
+      "kh_sfx_fail_horn_01.mp3",
+      "kh_sfx_fail_horn_02.mp3",
+      "kh_sfx_fail_horn_03.mp3",
+      "kh_sfx_fail_horn_04.mp3",
+      "kh_sfx_fail_horn_05.mp3",
+      "kh_sfx_fail_horn_06.mp3",
+      "kh_sfx_fail_horn_07.mp3"
+    ]
+  }
+}

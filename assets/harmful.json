@@ -1,0 +1,1 @@
+{"behaviors":[{"y":8,"scale":1,"type":"spatial","x":190,"rotation":0},{"type":"visible","asset":"killbox.png","z":5},{"type":"harmful","script":"harmful.lua"},{"type":"physical","sim":"static","data":"harmful"}]}

@@ -1,0 +1,60 @@
+{
+  "behaviors": [
+    {
+      "animations": [
+        {
+          "delay": 0.05, 
+          "frames": [
+            "coin_spinning_01.png",
+            "coin_spinning_02.png",
+            "coin_spinning_03.png",
+            "coin_spinning_04.png",
+            "coin_spinning_05.png",
+            "coin_spinning_06.png",
+            "coin_spinning_07.png",
+            "coin_spinning_08.png",
+            "coin_spinning_09.png",
+            "coin_spinning_10.png",
+            "coin_spinning_11.png",
+            "coin_spinning_12.png",
+            "coin_spinning_13.png",
+            "coin_spinning_14.png",
+            "coin_spinning_15.png",
+            "coin_spinning_16.png"
+          ], 
+          "name": "coin_default"
+        }
+      ], 
+      "asset": "game_assets.pvr.ccz",
+      "default": "coin_default", 
+      "frame_data": "pick_up_coins.plist", 
+      "opacity": 255, 
+      "type": "animable", 
+      "z" : 6
+    },
+    {
+      "script": "collectable.lua", 
+      "type": "script"
+    }, 
+    {
+      "data": "coin", 
+      "sim": "static", 
+      "type": "physical",
+      "material": "coin"
+    },
+    {
+      "data" : "collect_star.plist",
+      "type" : "particle",
+      "offset_x" : 0,
+      "offset_y" : 0,
+      "z" : 5
+    },
+    {
+      "rotation" : 0,
+      "scale" : 1,
+      "type" : "spatial",
+      "x" : 390,
+      "y" : 163
+    }
+  ]
+}
